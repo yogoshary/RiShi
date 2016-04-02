@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.epicq.rishi_demo.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!1" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/image1" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第1个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!2" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/image2" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第2个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!3" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第3个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!4" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第4个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!5" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第5个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!6" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第6个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!7" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第7个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!8" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第8个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!9" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#888888"></View>
+
+            <!--以上是第9个-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:height="100dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Hello World!10" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="16dp"
+                    android:background="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <!--以上是第10个-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
